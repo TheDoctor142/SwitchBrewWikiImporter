@@ -1,6 +1,6 @@
 # SwitchBrewWikiImporter
 A Ghidra script to help import IPC names from the SwitchBrew wiki.
-How to use: Copy and paste a table containing IPC commands from the switchbrew wiki and save them into a file. In the first line of the file, put the name of the service you are implementing. For example, "nn::nifm::detail::IGeneralService". An example of what this should look like can be found in CommandDataRaw.txt.
+How to use: Copy and paste a table containing IPC commands from the switchbrew wiki and save them into a file. In the first line of the file, put the name of the service you are implementing. For example, "nn::nifm::detail::IGeneralService". An example of what this should look like can be found in CommandDataRaw.txt. Do not leave any empty lines at the end of the file, this will break the script.
 
 Go to https://yls8.mtheall.com and copy the swipcgen_server_modern.info for the IPC server you want to use. Copy and paste this into a file WITHOUT MAKING ANY CHANGES WHATSOEVER. An example of what this should look like can be found in ServerDataRaw.txt.
 
